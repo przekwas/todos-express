@@ -2,7 +2,9 @@
 
 This repo and starting code go over a simple Express server setup. We stick to REST guidelines, use basic CRUD operations for our todo list, and we'll be using jQuery's AJAX function on the front end to see how it all comes together.
 
-## File System
+## Server Side Code
+
+### File System
 
 This particular example will use node's `fs` module for leveraging file system reads and writes. The pre-made `todos-store.js` (equivalent to `chirpstore.js` in our course) has your basic CRUD operations coded out for you. That way you can focus on learning how we can use Express Endpoints to correspond with out CRUD operations.
 
@@ -12,7 +14,7 @@ This particular example will use node's `fs` module for leveraging file system r
 -   GetTodo: takes the id, which retreives only the details of that particular todo item, possibly used on a "details" type page
 -   UpdateTodo: takes the id **and** _any_ object we wish to over-write at that id key, so careful to be consistent
 
-## Express App
+### Express App
 
 Here's some breakdowns of our Express App:
 
@@ -36,12 +38,12 @@ app.listen(port, () => console.log(`Server listening on port: ${port}`));
 
 This is totally overkill for this example, but this tidbit allows us to actually deploy our servers to the real world and have our friends+family break our website in no time.
 
-## Routing
+### Routing
 
 -   `/server/routes/index.js`: this files purpose is to _index_ (like it's in the name or something) of all of our other routers
 -   `/server/routes/todos.js`: this file is where the specific endpoints exist for our `todos` resource, aka the purpose of this demo.
 
-## Running the Project
+### Running the Project
 
 Run each once at a time:
 
@@ -53,3 +55,7 @@ npm run dev
 ```
 
 The first command will copy my code to your computers via the command line. It will make a new folder called `todos-express` for you, so run this command in your terminal where you want to keep my folder+code. The rest are the usual suspects. Move into the new project folder, install all needed dependencies, and then run the project with `npm run dev`
+
+## Client Side Code
+
+Soon!
