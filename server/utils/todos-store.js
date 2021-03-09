@@ -13,13 +13,13 @@ const getTodo = id => {
 	return Object.assign({}, todos[id]);
 };
 
-const createTodo = chirp => {
-	todos[todos.nextid++] = chirp;
+const createTodo = todo => {
+	todos[todos.nextid++] = todo;
 	writeTodos();
 };
 
-const updateTodo = (id, chirp) => {
-	todos[id] = chirp;
+const updateTodo = (id, todo) => {
+	todos[id] = todo;
 	writeTodos();
 };
 
