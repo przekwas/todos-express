@@ -1,0 +1,30 @@
+{
+  "name": "todos-express",
+  "version": "1.0.0",
+  "description": "an example of connecting a jquery front end to an express api with crud operations",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przekwas/todos-express.git"
+  },
+  "keywords": [
+    "jquery",
+    "ajax",
+    "express",
+    "crud",
+    "node",
+    "fetch",
+    "bootstrap",
+    "server",
+    "client"
+  ],
+  "author": "tuna_no_crust",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/przekwas/todos-express/issues"
+  },
+  "homepage": "https://github.com/przekwas/todos-express#readme"
+}
